@@ -1,0 +1,371 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #34495e;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    overflow:hidden;
+ 
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+nav a{
+    padding:10px;
+    font-weight:bold;
+    border-radius:10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+  
+    background:#08bd80;
+    border-color: #08bd80;
+/*     font-weight: bold; */
+}
+row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.header {
+    background: #000000
+    /*    background: url(Bed%20YUMMI.png);*/
+    /*background-size: cover;*/
+    box-shadow: 0 01px 10px black;
+}
+
+.header .row {
+    margin-top: auto;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    margin: 15% 50% 1px;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%,-25%);
+    background: #191919;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 10px 20px 20px;
+   
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box .msg{
+    color: white;
+}
+.box input[type="text"],.box input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+.bttn{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.bttn:hover{
+    background: #23cc71;
+}
+
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn-1{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    margin: 30px 30%;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn-1:hover{
+    background: #563434;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+.vl {
+  border-left: 1px solid white;
+  height: 150px;
+  margin-right: 40px;
+}
+/*-------media query for manu------*/
+@media only screen and (max-width: 800px){
+   
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        
+        display: block;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2,.col-3,.col-4{
+        flex-basis: 100%;
+    }
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;    
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header{
+/*    background: radial-gradient(#fff,#ffd6d6);*/
+    background: url(Bed%20YUMMI.png);
+    background-size: cover;
+}
+.header .row{
+    margin-top: auto;
+}
+
+/*----------footer------------*/
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+.vl {
+  border-left: 1px solid white;
+  height: 150px;
+  margin-right: 40px;
+}
+/*-------media query for manu------*/
+@media only screen and (max-width: 800px){
+   
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        
+        display: block;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2,.col-3,.col-4{
+        flex-basis: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

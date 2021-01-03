@@ -1,0 +1,174 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 Oct, 2020, 4:39:39 PM
+    Author     : bkuma
+*/
+
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(45deg, #969329,#54577f);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+}
+.form-box{
+    width: 380px;
+    height: 460px;
+    position: relative;
+    margin: 6% auto;
+    background: #f3f3f3;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 5%;
+}
+.button-box{
+    width: 320px;
+    margin: 35px auto;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    background: transparent;
+    border: 0;
+    font-size: 15px;
+/*    align-items: center;*/
+    outline: none;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+/*    background: linear-gradient(to left, #3f01a0,#ff0182);*/
+    border-radius: 30px;
+}
+.input-group{
+    top: 140px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    margin-bottom: 30px;
+/*    background: linear-gradient(to left, #3f01a0,#ff0182);*/
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid #c3c3c3;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    position: absolute;
+    transform: translate(0,-50%);
+    top: 70px;
+    right: 1px;
+    cursor: pointer;
+}
+.fa{
+    font-size: 20px;
+    color: #7a797e;
+}
+.text-{
+    margin: auto 30px;
+}
+#login{
+    left: 450px;
+}
+#register{
+    
+    left: 50px;
+}
+
+.row{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+/*    background: gray;*/
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+/*    flex: 0%;*/
+    min-width: 50%;
+    flex-basis: 50%;
+}
+.labl{
+/*    margin-right: 24px;*/
+    padding: 8px 12px;
+    margin-bottom: 16px;
+    display: flex;
+    color: #000000;
+    border: 1px solid #c3c3c3;
+    box-shadow:1px 1px 1px darkgrey;
+    background: none;
+    width: 79%;
+    height: auto;
+    font-size: 14.4px;
+    border-radius: 30px;
+    font-family: 'Ubuntu', sans-serif;
+/*     border:none; */
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.select{
+    padding: 8px 12px;
+    color: #000000;
+    border: 1px solid #c3c3c3;
+    box-shadow:1px 1px 1px darkgrey;
+    cursor: pointer;
+    background: none;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 16px;
+    display: flex;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+option{
+    background: lightgray;
+    font-family: 'Ubuntu', sans-serif;
+}
